@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LicentaClient</string>
+    <string name="token" translatable="false">token</string>
+    <string name="scan">scan</string>
+</resources>
