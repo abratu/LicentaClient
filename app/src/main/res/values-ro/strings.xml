@@ -2,4 +2,7 @@
 <resources>
     <string name="app_name">LicentaClient</string>
     <string name="scan">Scanare</string>
+    <string name="user_name">Nume utilizator</string>
+    <string name="password">Parola</string>
+    <string name="invalidUserNamePassword">Nume sau parola invalida</string>
 </resources>

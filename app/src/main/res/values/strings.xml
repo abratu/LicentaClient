@@ -3,4 +3,9 @@
     <string name="app_name">LicentaClient</string>
     <string name="token" translatable="false">token</string>
     <string name="scan">scan</string>
+    <string name="url" translatable="false">http://192.168.0.100:8080</string>
+    <string name="user_name">Nume utilizator</string>
+    <string name="password">Parola</string>
+    <string name="sing_in">Sing in</string>
+    <string name="invalidUserNamePassword">Nume sau parola invalida</string>
 </resources>

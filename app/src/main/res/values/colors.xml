@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D4D4D4</color>
+    <color name="buttonBackground1">#000000AA</color>
+    <color name="buttonBackground">#546E7A</color>
+    <color name="activityBackground">#37474F</color>
+    <color name="spinnerBackground">#303030</color>
+    <!--color name="fontColor">#FFFFE0</color-->
+    <color name="fontColor">#FFFFFF</color>
+    <color name="fontColorInfo">#AF7FA0</color>
+    <color name="darkFontColor">#818181</color>
+    <color name="headerBackgroundColor">#455A64</color>
+    <color name="hintTextColor">#E0E0E0</color>
+    <color name="listBackground1">#263238</color>
+    <color name="listBackground2">#37474F</color>
+    <color name="separatorBackground">#BDBDBD</color>
+    <color name="callGreen">#00bb00</color>
+
+    <!--color name="listBackground1">#0000FF</color>
+    <color name="listBackground2">#0000FF</color-->
 </resources>

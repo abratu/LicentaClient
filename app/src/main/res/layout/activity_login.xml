@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    tools:context="licentaclient.abratu.com.licentaclient.activity.LoginActivity">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/border">
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewUserIcon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/user_name"
+            android:inputType="textPersonName"
+            android:textColor="@color/fontColor" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextUserName"
+            android:layout_alignStart="@+id/editTextUserName"
+            android:layout_below="@+id/editTextUserName"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/fontColor" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewInvalidPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:background="#455A64"
+            android:text="@string/sing_in"
+            android:textColor="@color/fontColor" />
+
+        <TextView
+            android:id="@+id/textViewInvalidPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextPassword"
+            android:layout_alignStart="@+id/editTextPassword"
+            android:layout_below="@+id/editTextPassword"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/fontColor" />
+
+        <TextView
+            android:id="@+id/textViewUserIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="@color/fontColor"
+            android:textSize="70dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

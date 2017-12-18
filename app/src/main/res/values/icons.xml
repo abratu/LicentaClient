@@ -2,4 +2,15 @@
 <resources>
     <!--http://fontawesome.io/cheatsheet/-->
     <string name="fa_qr" translatable="false">&#xf029;</string>
+    <string name="fa_icon_maps">&#xf278;</string>
+    <string name="fa_icon_user">&#xf2c0;</string>
+    <string name="fa_icon_user_circle">&#xf2bd;</string>
+    <string name="fa_icon_road">&#xf018;</string>
+    <string name="fa_icon_calendar">&#xf073;</string>
+    <string name="fa_phone">&#xf095;</string>
+    <string name="fa_icon_right">&#xf105;</string>
+    <string name="fa_icon_key">&#xf084;</string>
+    <string name="fa_unlock">&#xf09c;</string>
+    <string name="fa_home">&#xf015;</string>
+    <string name="fa_refresh">&#xf021;</string>
 </resources>
